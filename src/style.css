@@ -1,0 +1,124 @@
+header {
+  min-width: 165px;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+    text-align: right;
+    z-index: 986;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: flex-end;
+    justify-content: flex-end;
+    -webkit-user-select: none;
+
+}
+ header a:link, a:visited a:active {
+  color: #202124;;
+	font-family: arial,sans-serif;
+	font-size:13px;
+	text-decoration:none;
+}
+
+header a:hover {
+  text-decoration:underline;
+  width: 272;
+}
+.logo {
+  text-align: center;
+  padding-top: 109px;
+}
+
+#input {
+  text-align: center;
+}
+.bar {
+  margin: 10px auto;
+  width: 575px;
+  border-radius: 30px;
+  
+  border: 1px solid #dcdcdc;
+}
+.bar:hover {
+  box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+.bar:focus-within{
+  box-shadow: 1px 1px 8px 1px #dcdcdc;
+  outline:none;
+}
+.box{
+  height:45px;
+  border:none;
+  width:500px;
+  font-size:16px;
+  outline: none;
+  
+}
+.voice{
+  height:20px;
+  position:relative;
+  top:5px;
+  left:10px;
+}
+
+.button {
+  background-image: -webkit-linear-gradient(top,#f8f9fa,#f8f9fa);
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+
+}
+#lang {
+  
+  line-height: 28px;
+  font-size: small;
+  text-align: -webkit-center;
+  background: #fff;
+    color: #202124;
+    font-family: arial,sans-serif;
+    margin-bottom: 24px;
+}
+footer {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  font-family: arial,sans-serif;
+  padding-top:22px;
+  border-top: 1px solid #dadce0;
+  background: #f2f2f2;
+}
+footer a:link, a:visited a:active {
+  color: #696969;
+	font-family: arial, sans-serif;
+	font-size:16px;
+	text-decoration:none;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+.leftSide {
+  position: relative;
+  bottom: 9px;
+  margin-left: 10px;
+  margin-right: 10px;
+
+
+}
+.rightSide {
+  position: relative;
+  float: right;
+  bottom: 9px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
